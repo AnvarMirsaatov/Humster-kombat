@@ -7,7 +7,7 @@ const ModalEarnper = ({ setplusTab, setEarnperModal, count, setCount }) => {
   const [lvl2, setlvl2] = useState(3);
   const [lvl2Price, setlvl2Price] = useState(250);
   const [lvl3, setlvl3] = useState(4);
-  const [lvl3Price, setlvl3Price] = useState(600);
+  const [lvl3Price, setlvl3Price] = useState(500);
 
   function lvl1PriceFunction() {
     if (count > lvl1Price) {
