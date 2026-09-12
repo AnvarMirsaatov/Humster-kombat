@@ -23,7 +23,7 @@ export default function App() {
   }, [plusTab, count]);
 
   return (
-    <div className="min-h-screen bg-[#171a1f] p-4 sm:p-6">
+    <div className="min-h-screen bg-[#060b15] p-4 sm:p-6">
       <div className="mx-auto w-full max-w-[430px] rounded-[22px] border border-[#4ab1ff] bg-[#2d3037] p-4 shadow-[0_0_0_1px_rgba(89,159,255,0.2)]">
         <Navbar />
         <Score
