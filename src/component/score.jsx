@@ -40,7 +40,7 @@ const Score = ({
           </div>
         </div>
       </div>
-      <div className="absolute left-[500px]">
+      <div className="absolute">
         {earnperModal && (
           <ModalEarnper
             setplusTab={setplusTab}
